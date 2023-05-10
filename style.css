@@ -66,6 +66,20 @@ h3 {
 }
 /**** END : Page Galerie ****/
 
+/* Boutons */
+.btn-about {
+  background-color: #2ECC71;
+}
+.btn-event1 {
+
+}
+.btn-event2 {
+
+}
+.btn-event3 {
+
+}
+
 /* Footer */
 footer {
   background-color: #2C3E50;
