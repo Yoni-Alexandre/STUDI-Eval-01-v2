@@ -1,0 +1,77 @@
+/* ---- ------------------------------- ---- */
+/* ---- DEBUT RESET CSS & CONFIGURATION ---- */
+/* ---- ------------------------------- ---- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600&display=swap');
+/* Couleurs du site : https://coolors.co/f1c40f-f39c12-1abc9c-2ecc71-2c3e50 */
+
+* {
+  /* Inclus le padding + la bordure */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Slab', sans-serif;
+  background-color: #F8F8F8;
+}
+
+header, main {
+  margin: 0 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  color: #F39C12;
+}
+
+h2 {
+  color: #1ABC9C;
+}
+
+h3 {
+  color: #2ECC71;
+}
+/* ---- ----------------------------- ---- */
+/* ---- FIN RESET CSS & CONFIGURATION ---- */
+/* ---- ----------------------------- ---- */
+
+/**** START : Page Accueil ****/
+/* NavBar */
+.navbar-transparent {
+  background-color: rgba(255, 255, 255, 0.9); /* opacité de 80% */
+}
+/* Effet Parallax */
+.parallax {
+  background-image: url('assets/img/Beatles_logo.svg.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+/**** END : Page Accueil ****/
+
+/**** START : Page Galerie ****/
+/* Galerie d'images */
+.galerie img {
+  transition: transform 0.5s ease;
+}
+
+.galerie img:hover {
+  transform: scale(1.1);
+}
+/**** END : Page Galerie ****/
+
+/* Footer */
+footer {
+  background-color: #2C3E50;
+  color: #F1C40F;
+}
+
+footer p.text-muted {
+  color: white !important;
+}
