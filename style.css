@@ -42,7 +42,7 @@ h3 {
 /**** START : Page Accueil ****/
 /* NavBar */
 .navbar-transparent {
-  background-color: rgba(255, 255, 255, 0.9); /* opacité de 80% */
+  background-color: rgba(255, 255, 255, 0.9); /* opacité de 90% */
 }
 /* Effet Parallax */
 .parallax {
@@ -75,3 +75,42 @@ footer {
 footer p.text-muted {
   color: white !important;
 }
+
+/* -------------------------------------- */
+/* ---- RESPONSIVE -- TABLETTE -- PC ---- */
+/* -------------------------------------- */
+
+@media screen and (min-width: 600px) {
+  .btn {
+    font-size: 1.2rem;
+    padding: 0.7rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .navbar-transparent {
+    background-color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* Augmentation de la taille du texte */
+  body {
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  /* Augmentation de la taille du texte */
+  body {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .parallax {
+    background-attachment: scroll;
+    height: auto;
+  }
+}
+
