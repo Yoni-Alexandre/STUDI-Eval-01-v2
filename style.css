@@ -25,7 +25,7 @@ ul {
 }
 
 h1 {
-  color: #F39C12;
+  color: #2C3E50;
 }
 
 h2 {
@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-  color: #2ECC71;
+  color: #F39C12;
 }
 /* ---- ----------------------------- ---- */
 /* ---- FIN RESET CSS & CONFIGURATION ---- */
@@ -46,7 +46,7 @@ h3 {
 }
 /* Effet Parallax */
 .parallax {
-  background-image: url('assets/img/Beatles_logo.svg.png');
+  background-image: url('assets/img/img-section-debissy.png');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -68,16 +68,16 @@ h3 {
 
 /* Boutons */
 .btn-about {
-  background-color: #2ECC71;
+  background-color: #2C3E50;
 }
 .btn-event1 {
-
+  background-color: #F39C12;
 }
 .btn-event2 {
-
+  background-color: #F1C40F;
 }
 .btn-event3 {
-
+  background-color: #1ABC9C;
 }
 
 /* Footer */
@@ -97,7 +97,6 @@ footer p.text-muted {
 @media screen and (min-width: 600px) {
   .btn {
     font-size: 1.2rem;
-    padding: 0.7rem 1.5rem;
   }
 }
 
@@ -107,15 +106,59 @@ footer p.text-muted {
   }
 }
 
+/* iPhone 6/7/8/12/13 */
+@media screen and (min-width: 375px) {
+  h5 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 1.4rem;
+  }
+  .img-assoc {
+    margin-bottom: 20px;
+  }
+}
+
+/* iPad mini */
+@media screen and (min-width: 768px) {
+  .cards-event1 {
+    background-color: #F1C40F;
+    padding-bottom: 31px;
+  }
+  .cards-event2 {
+    background-color: #F39C12;
+    padding-bottom: 10px;
+  }
+  .cards-event3 {
+    background-color: #1ABC9C;
+  }
+  .btn {
+    font-size: 1.1rem;
+  }
+  footer {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .cards-event3 {
+    padding-bottom: 10px;
+  }
+  .cards-event1 {
+    padding-bottom: 5px;
+  }
+}
+
 @media screen and (max-width: 500px) {
-  /* Augmentation de la taille du texte */
   body {
     font-size: 1.9rem;
   }
 }
 
 @media screen and (max-width: 815px) {
-  /* Augmentation de la taille du texte */
   body {
     font-size: 1.5rem;
   }
